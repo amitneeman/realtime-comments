@@ -5,8 +5,6 @@ const serverHost = 'http://localhost:9496/';
 const BaseUrl = `${serverHost}comments`;
 const replyUrl = `${BaseUrl}/reply`;
 
-const test = 1234;
-
 const socket = io.connect(serverHost,{});
 
 export const actionTypes = {
