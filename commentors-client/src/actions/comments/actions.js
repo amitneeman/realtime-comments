@@ -1,10 +1,11 @@
-// GIT CHECK
 import io  from 'socket.io-client'
 import axios from 'axios';
 
 const serverHost = 'http://localhost:9496/';
 const BaseUrl = `${serverHost}comments`;
 const replyUrl = `${BaseUrl}/reply`;
+
+const test = 123;
 
 const socket = io.connect(serverHost,{});
 
