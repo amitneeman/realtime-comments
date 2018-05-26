@@ -1,9 +1,11 @@
+This is WOIP
+
 # realtime-comments
 a complete solution to displaying subject-based realtime comments based on react, redux, nodejs, socketio, express and mongoDB
 
 # Usage:
 
-To set this up you need to run on your local machine mongoDB. then you can start the commentors-server.
+To set this up you need to run mongoDB on your local machine. then you can start the commentors-server.
 
 The client project is based on create-react-app and redux, and requires 2 url parameters to start - subject, and user. for example:
 
